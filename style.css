@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(7, 0, 105);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 400px; 
+    justify-items: center;
+    align-items: center;
+}
+
+.box, .box1 {
+    width: 118px;
+    height: 118px;
+    border: 3px dotted;
+    border-top-color: red;
+    border-bottom-color: rgb(255, 238, 0);
+    border-left-color: green;
+    border-right-color: rgb(240, 77, 1);
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.red {
+    color: red;
+}
+
+.ore {
+    color: rgb(240, 77, 1);
+}
+
+.elo {
+    color: rgb(255, 238, 0);
+}
+
+.gre {
+    color: green;
+}
+
+li {
+    color: white;
+    list-style-type: square;
+}
